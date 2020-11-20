@@ -4,7 +4,8 @@
   "description": "Repo for testing git features and other tools for version control",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version -f"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jpleyjon/mock_reposiroty/issues"
   },
-  "homepage": "https://github.com/jpleyjon/mock_reposiroty#readme"
+  "homepage": "https://github.com/jpleyjon/mock_reposiroty#readme",
+  "devDependencies": {
+    "standard-version": "^9.0.0"
+  }
 }
